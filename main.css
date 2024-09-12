@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    padding: 16px;
+    background-color: rgb(36, 180, 113);
+    border-bottom: 16px solid rgb(86, 146, 99);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: #fff;
+}
+
+form{
+    text-align: center;
+    background-color: #bef1da;
+    padding: 24px 0;
+}
+
+form h2{
+    padding: 8px;
+}
+
+input,
+button{
+    padding: 8px;
+    border: none;
+}
+
+input{
+    border-bottom: 1px solid black;
+}
+
+ul{
+    padding: 16px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+ul li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.riscado {
+    text-decoration: line-through;
+}
+
+button {
+    background-color: rgb(56, 187, 66);
+    color: #fff;
+    font-weight: bold;
+}
+
+#botao-reset {
+    background-color: rgb(250, 66, 66);
+}
